@@ -1,0 +1,15 @@
+{
+  "name": "exercicio_less",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc ./src/style/main.less ./build/style/main.css && less-watch-compiler ./src/style ./build/style",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
+}
